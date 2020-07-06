@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "none",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "lib": [
+      "esnext",
+      "es2017",
+      "es2016",
+      "es2015",
+      "dom"
+    ],
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "sourceMap": true
+  },
+  "include": [
+    "*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
